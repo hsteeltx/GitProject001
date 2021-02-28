@@ -15,12 +15,13 @@ public class RotateLeftArray {
 		for(int i=0; i<3; i++) {
 			arr[i]=scan.nextInt();
 		}
-		//switching first and last element
+		//printing the original array
 		System.out.println("Before rotating "+Arrays.toString(arr));
+		//switching first and last element
 		int temp = arr[0];
 		arr[0]=arr[2];
 		arr[2]= temp;
-		//printing the rotated list
+		//printing the rotated array
 		System.out.println("Rotated List "+ Arrays.toString(arr));
 		scan.close();
 	}
