@@ -12,13 +12,21 @@ public class RotateLeftArray {
 		int arr[]= new int[3];
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter 3 numbers");
+		//user created array
 		for(int i=0; i<3; i++) {
-			arr[i]=scan.nextInt();
+			arr[i]=scan.nextInt();//take input from user
 		}
+
 		//switching first and last element
+
+		//this will switch the places of first and second elements
+
 		System.out.println("Before rotating "+Arrays.toString(arr));
+		//temp variable to store one of the element of the array
 		int temp = arr[0];
+		//arr[0] is the third element
 		arr[0]=arr[2];
+		//arr[2] which is the last element has the first value now
 		arr[2]= temp;
 		//printing the rotated list
 		System.out.println("Rotated List "+ Arrays.toString(arr));
