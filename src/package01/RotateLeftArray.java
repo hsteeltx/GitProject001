@@ -22,6 +22,7 @@ public class RotateLeftArray {
 		arr[0]=arr[2];
 		arr[2]= temp;
 		//printing the rotated array
+		//second try
 		System.out.println("Rotated List "+ Arrays.toString(arr));
 		scan.close();
 	}
