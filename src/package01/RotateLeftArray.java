@@ -15,6 +15,7 @@ public class RotateLeftArray {
 		for(int i=0; i<3; i++) {
 			arr[i]=scan.nextInt();
 		}
+		//this will switch the places of first and second elements
 		System.out.println("Before rotating "+Arrays.toString(arr));
 		int temp = arr[0];
 		arr[0]=arr[2];
