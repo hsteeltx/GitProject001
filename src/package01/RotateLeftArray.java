@@ -15,6 +15,7 @@ public class RotateLeftArray {
 		for(int i=0; i<3; i++) {
 			arr[i]=scan.nextInt();
 		}
+		//switching first and last element
 		System.out.println("Before rotating "+Arrays.toString(arr));
 		int temp = arr[0];
 		arr[0]=arr[2];
