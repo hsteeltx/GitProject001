@@ -17,8 +17,11 @@ public class RotateLeftArray {
 		}
 		//this will switch the places of first and second elements
 		System.out.println("Before rotating "+Arrays.toString(arr));
+		//temp variable to store one of the element of the list
 		int temp = arr[0];
+		//arr[0] is the third element
 		arr[0]=arr[2];
+		//arr[2] which is the last element has the first value now
 		arr[2]= temp;
 		System.out.println("Rotated List "+ Arrays.toString(arr));
 		scan.close();
