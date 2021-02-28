@@ -20,6 +20,7 @@ public class RotateLeftArray {
 		int temp = arr[0];
 		arr[0]=arr[2];
 		arr[2]= temp;
+		//printing the rotated list
 		System.out.println("Rotated List "+ Arrays.toString(arr));
 		scan.close();
 	}
