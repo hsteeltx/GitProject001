@@ -17,7 +17,7 @@ public class RotateLeftArray {
 			arr[i]=scan.nextInt();//take input from user
 		}
 
-
+		//this is just try
 		//switching first and last element
 
 		//this will switch the places of first and second elements
