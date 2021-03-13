@@ -18,6 +18,7 @@ public class RotateLeftArray {
 		}
 
 		//this is just try
+		//this is the second try
 		//switching first and last element
 
 		//this will switch the places of first and second elements
